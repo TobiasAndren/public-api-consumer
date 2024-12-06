@@ -1,0 +1,50 @@
+.lyricForm {
+    height: 30%;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lyricFormContainer {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.labelText {
+    margin: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.inputField {
+    border-radius: 0%;
+    border: none;
+    height: 30%;
+    width: 100%;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: var(--textColor);
+}
+
+.submitButton {
+    margin-top: 0.5rem;
+    border-radius: 0%;
+    border: none;
+    height: 15%;
+    transition: 100ms ease-in-out;
+    background-color: var(--textColor);
+}
+
+.submitButton:hover {
+    transform: scale(1.03);
+}
+
+.submitButton:active {
+    transform: translateY(2px);
+    background-color: var(--accent);
+}

@@ -1,0 +1,31 @@
+.header {
+    margin: 2rem;
+    height: 5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.goBackContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    width: 30%;
+    transition: 100ms ease-in-out;
+}
+
+.goBackContainer:hover {
+    text-decoration: underline;
+    transform: scale(1.01);
+}
+
+.goBackArrow {
+    height: 80%;
+}
+
+.goBack {
+    color: var(--textColor);
+    text-decoration: none;
+}
