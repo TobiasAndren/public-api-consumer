@@ -1,4 +1,5 @@
-addEventListener("submit", (event) => {  
+addEventListener("submit", (e) => {  
+    e.preventDefault();
     const artist = document.getElementById("artist")
     const artistValue = artist.value.toUpperCase()
 
@@ -33,7 +34,7 @@ addEventListener("submit", (event) => {
         } else {
             const div = document.createElement("div")
             div.innerHTML = `
-            <h2>Sorry! song not found. Try Again!</h2>
+            <h2>Sorry! Song not found. Try again!</h2>
             `
             document.body.appendChild(div)
             div.classList.add("lyricContainer")
