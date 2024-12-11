@@ -37,8 +37,11 @@
     border-radius: 0%;
     border: none;
     height: 15%;
+    padding-left: 1rem;
+    padding-right: 1rem;
     transition: 100ms ease-in-out;
     background-color: var(--textColor);
+    border-radius: 6px;
 }
 
 .submitButton:hover {

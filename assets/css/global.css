@@ -10,7 +10,7 @@
     margin: 0;
 }
 
-body {
+.body {
     height: 100vh;
     background: linear-gradient(to bottom, var(--accent) 20%, var(--backgroundGradient) 40%, var(--backgroundColor) 60%) var(--backgroundColor);
     background-repeat: no-repeat;

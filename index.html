@@ -9,21 +9,24 @@
     <link rel="stylesheet" href="assets/css/lyrics.css">
     <link rel="stylesheet" href="assets/css/submit-form.css">
 </head>
-<body>
+<body class="body">
     <header class="header">
         <a href="index.html" class="notVisible goBack">
             <img src="assets/images/backarrow.png" alt="arrow to the left" class="goBackArrow">
             Go Back
         </a>
+        <button class="notVisible skipAnimationBtn">
+            Skip Animation 
+        </button>
     </header>
-    <form action="#" class="lyricForm">
+    <form action="#" class="lyricForm" id="lyricForm">
         <div class="lyricFormContainer">
             <label for="artist" class="labelText">Insert Artist Here:</label>
-            <input type="text" id="artist" class="inputField" required>
+            <input type="text" id="artist" class="inputField" placeholder="Artist.." required>
         </div>
         <div class="lyricFormContainer">
             <label for="title" class="labelText">Insert Song Title Here:</label>
-            <input type="text" id="title" class="inputField" required>
+            <input type="text" id="title" class="inputField" placeholder="Song Title.." required>
         </div>
         <button class="submitButton">Search</button>
     </form>
